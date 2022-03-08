@@ -22,7 +22,11 @@ export default {
   },
   methods: {
     getAnswer() {
-      if (this.question.indexOf('?') === -1) {
+    const index = this.question;
+      if (
+        index.indexOf("?") === -1 ||
+        (!index.includes("do") && !index.includes("can") && !index.includes("are"))
+      ) {
         this.answer = 'Questions usually ends with a question mark. 😊';
         this.image = null;
 
