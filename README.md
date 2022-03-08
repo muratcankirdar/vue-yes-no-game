@@ -13,6 +13,6 @@ https://v2.vuejs.org/v2/guide/computed.html#Watchers
 - yarn serve
 ```
 
-## Live demo
 
-https://muratcankirdar.github.io/vue-yes-no-game
+
+
