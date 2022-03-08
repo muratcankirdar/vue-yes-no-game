@@ -22,10 +22,10 @@ export default {
   },
   methods: {
     getAnswer() {
-    const index = this.question;
+    const keyWords = ["?", "do", "are", "can"];
+    const questionWordsArray = this.question.split(" ");
       if (
-        index.indexOf("?") === -1 ||
-        (!index.includes("do") && !index.includes("can") && !index.includes("are"))
+        !questionWordsArray.some((item) => keyWords.includes(item))
       ) {
         this.answer = 'Questions usually ends with a question mark. 😊';
         this.image = null;
