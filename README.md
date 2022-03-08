@@ -2,6 +2,9 @@
 
 I used https://yesno.wtf/api
 
+Inspired from :)
+https://v2.vuejs.org/v2/guide/computed.html#Watchers
+
 ## To run project locally
 
 ```
