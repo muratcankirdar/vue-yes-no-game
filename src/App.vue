@@ -4,7 +4,6 @@ import { debounce } from 'lodash';
 
 export default {
   name: 'App',
-  components: {},
   data() {
     return {
       question: '',
